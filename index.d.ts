@@ -92,11 +92,11 @@ declare namespace ReactDeviceDetect {
   }
 
   interface IOsTypes {
-    IOS: string;
-    Android: string;
-    WindowsPhone: string;
-    Windows: string;
-    MAC_OS: string;
+    IOS: 'iOS';
+    Android: 'Android';
+    WindowsPhone: 'Windows Phone';
+    Windows: 'Windows';
+    MAC_OS: 'Mac OS';
   }
 
   interface IBrowserTypes {
